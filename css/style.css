@@ -1,0 +1,193 @@
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+/* header start*/
+header{
+	  padding: 10px 0;
+      background-color: #121B2A;
+}
+.wrapper {
+	   overflow: hidden;  
+       width: 80%;
+       border: ;
+       margin: 0 auto;
+}
+.logo {
+	    float: left;
+        width: 16%;
+        border: ;
+
+}
+.logo img{
+	      width: 100%;
+}
+
+.menu { 
+	    margin-top: 40px;
+	    float: right;
+        width: 70%;
+        border:;
+
+}
+ .menu   ul{
+ 	         float: right;
+ }
+ .menu ul li{
+           float:left; 
+ 	       list-style: none;
+ }
+ .menu ul li a{
+ 	            font-family: sans-serif;
+ 	           font-size: 16; 
+ 	           font-weight: 400;
+               color: white;
+ 	          text-decoration: none;
+              text-transform: uppercase;
+              padding: 0 20px;
+              display: inline-block;
+ }
+  .menu ul li a:hover {
+              color: #0079BA;
+  }
+ .menu   ul li:last-child a  {
+
+ 	           padding-right: 0;
+ }
+
+/* header end */
+
+
+/*banner start*/
+.banner{
+	background-image: url(../images/bag.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 450px;
+}
+
+
+.b-content{
+	     margin-top:200px;
+	     margin-bottom:70px;
+	  width: 50px
+	  border: 1px solid red;
+}
+.b-content h1{
+	        margin: 0 0;
+            font-family: sans-serif;
+            font-size:38px;
+            font-weight:400 ;
+            color:white;
+            text-transform: capitalize;
+}
+.b-content h2{
+	         margin: 0 0;
+             font-family: sans-serif;
+            font-size:45px; 
+            font-weight:700 ;
+            color:#0079BA;
+            text-transform: capitalize;
+}
+
+.b-content p{
+	         margin: 15px 0 30px; 
+            font-family: sans-serif;
+            font-size :16px;
+            font-weight : 400;
+            color:white;
+}
+
+.b-content button{   
+                   width: 200px;
+                   height:70px;
+                   font-family: sans-serif;#0079BA
+                   font-size :20px;
+                   font-weight : 400;
+                   color:red;
+                   text-transform: uppercase;
+                   background-color: #ffffff;
+                   border: none;
+                   cursor: pointer;
+}                  
+
+.b-content button:hover{
+
+             background-color:#0079BA;
+              color: white;
+}
+
+/*banner end*/
+/*service start*/
+.service{
+	background-color: #121B2C;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+
+.single{
+	  width: 28%;
+	  border: ;
+	  float: left;
+	  padding: 50px 2%;
+}      
+.single:last-child{
+	border-right: 0;
+
+}
+
+
+.top{
+	overflow: hidden;
+}
+.t_img{
+	   width: 28%; 
+	   
+	   float: left;
+	  
+}
+
+.t_img img{
+	    width: 100%;
+
+}
+
+.t_text{
+	    margin-top: 15px;
+	    width: 60%;
+	    
+	    float: left;
+	    
+}
+
+.t_text h2{
+	       margin: 0;
+	       font-family:sans-serif; 
+	       font-size: 22px;
+	       font-weight:400px;
+	       color:white;
+
+}
+.t_text h3{
+	        margin: 0;
+	        font-family: sans-serif;
+	        font-size:26px;
+
+	        font-weight:400px;
+            color:#0079BC;
+}
+.bottom{}
+
+.bottom p{
+	       margin: 0;
+           font-family: sans-serif;
+           font-size: 16px;
+           font-weight:400;
+           color:white;
+           line-height: 25px;
+
+}
+/*service end*/
